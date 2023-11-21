@@ -9,21 +9,21 @@ body {
  background-size: auto;
   background-attachment: local;
 }
-
+/* whole navbar section*/
 #navbar {
  font-family: 'Oswald';
   overflow: hidden;
   background-color: transparent;
   padding: 20px 100px;
   transition: 0.4s;
-  position: fixed;
+  position: fixed; /* fixed means it will attach sa page on scroll*/
   width: 100%;
   top: 0;
   z-index: 99;
 }
-
+/* edits the links */
 #navbar a {
-margin-left: 80px;
+margin-left: 80px; /*spacing ng links */
   float: left;
   color: white;
   text-align: center;
@@ -34,6 +34,7 @@ margin-left: 80px;
   border-radius: 4px;
 }
 
+/*logo */
 #logo {
 	float:left;
 	  height: 210px;
@@ -42,8 +43,8 @@ margin-left: 80px;
 	  transform: translate(-130px, -40px)
 }
 
-
-#brand {
+/*lilypad sa navbar */
+#brand { 
 	font-size: 50px;
 	transform: translate(-50px, 10px);
 	float:left;
@@ -71,7 +72,7 @@ margin-left: 80px;
 	float:right;
   text-decoration: none;
 }
-
+/*underline animation hover*/
 #navbar-right a::before {
   content: '';
   position: absolute;
@@ -88,6 +89,7 @@ margin-left: 80px;
   width: 100%; /* Full width on hover */
   background-color: white; 
 }
+/*underline animation hover end */
 @media screen and (max-width: 580px) {
   #navbar {
     padding: 20px 10px ;
@@ -110,7 +112,7 @@ height: 450px;
   overflow: hidden;
 
 }
-#second{
+#second{  /*this part is yung coming soon part */
 background-color:#264740;
 height:800px;
   box-shadow: 0 0 600px rgba(0,0,0,0.5) inset;
@@ -126,7 +128,7 @@ transform:translate(80px, 30px);
 letter-spacing: 5px;
 }
 
-#caption {
+#caption { 
 font-family: 'Alike Angular';
 font-size: 20px;
 color:white;
