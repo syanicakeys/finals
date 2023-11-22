@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Monument;
+    src: url(Monument.otf);
+}
+
+@font-face {
+    font-family: Rustic Printed;
+    src: url(Rustic\ Printed\ Regular.ttf);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.title  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+    font-family: Monument;
+}
+
+.container img { 
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 50vh; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+    background-color: #F6F0DB;
+}
+
+.news.text {
+    max-width: 43%; 
+    margin: auto;
+    position: absolute;
+    bottom: 33%; 
+}
+
+.news.text {
+    font-family: Rustic Printed;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #333;
+}
