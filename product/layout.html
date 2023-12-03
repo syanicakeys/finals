@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Orbitron|Alike Angular' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: oswald;
+        }
+
+        .wrapper {
+            display: flex;
+            position: relative;
+            float: left;
+            width: 25%;
+            height: 100vh;
+        }
+
+        .wrapper .sidebar {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #59763E;
+        }
+
+        .wrapper .sidebar ul li {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .wrapper .sidebar ul li a {
+            color: #F6F0DB;
+            display: flex;
+            align-items: center;
+            padding: 5.3vh 4vh; /* adjust padding*/
+            font-size: 40px;
+        }
+
+        .wrapper .sidebar ul li a img {
+            margin-right: 40px;
+            max-width: 70px;
+        }
+
+        .wrapper .sidebar ul li:hover {
+            background: #CBCFA8;
+        }
+
+        .products {
+            float: right;
+            padding: 0px;
+            width: 75%;
+            height: 100vh;
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul>
+                <li><a href="product.html" target="productsiframe"><img src="allprod.png" />ALL PRODUCT</a></li>
+                <li><a href="keychain.html" target="productsiframe"><img src="keychain.png" />KEYCHAINS</a></li>
+                <li><a href="garments.html" target="productsiframe"><img src="garments.png" />GARMENTS</a></li>
+                <li><a href="plushies.html" target="productsiframe"><img src="plushies.png" />PLUSHIES</a></li>
+                <li><a href="seasonal.html" target="productsiframe"><img src="seasonal.png" />SEASONAL</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="products">
+        <iframe src="product.html" name="productsiframe"></iframe>
+    </div>
+</body>
+</html>
