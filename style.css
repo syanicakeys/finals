@@ -144,7 +144,7 @@ letter-spacing: 3px;
   background-color:#225742; 
   border: none;
   border-radius: 12px;
-  color: white;
+  color: white; 
   transform:translate(10px, -30px);
   padding: 10px 30px;
   text-align: center;
@@ -324,19 +324,30 @@ letter-spacing: 3px;
 .logofooter a{
 	
     text-decoration: none;
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+}
+
+.logofooter a:hover{
+  background-color: #E7DECC;
+  border: 12px solid #E7DECC;
 }
 
 .logofooter {
     display: flex;
     column-gap: 20px;
-	height: -30px;
+  margin: 0 auto;
+  
 }
 
 
 .f-logo{
-
-    width: 40px;
-	
+    width: 25px;
 }
 
 #background {
