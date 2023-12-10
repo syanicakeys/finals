@@ -2,10 +2,25 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Orbitron|Alike Angular' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
   </head>
   <body>
-    <dive class="bgcontainer"></dive>
+
+    <div id="navbar" class="nav-colored">
+      <a href="../index.html"><img src="../Leafy.png" id="logo"> <h1 id="brand"> THE LILYPAD </h1></a>
+      <div id="navbar-right">
+        <a href="ckontact_page.html">Contact</a>
+        <a href="../product/layout.html">Product</a>
+        <a href="#about">About</a>
+        <a class="active" href="../index.html">Home</a>
+      </div>
+    </div>
+
+    <div class="bgcontainer"></div>
     <div class="contactsdivcontainer">
       <div>
         <div class="leftcontacts">
@@ -24,20 +39,20 @@
           <div class="contactwrap">
             <div class="nmcontainer">
               <div class="divname">
-                <label class="label" for="subject">Name</label>
+                <label class="label" for="subject"> Name</label>
                 <input type="text" class="nameinput" name="name" id="name" placeholder="Name" required="required" autocomplete="off">
               </div>
               <div class="divemail">
-                <label class="label" for="subject">Email</label>
+                <label class="label" for="subject"> Email</label>
                 <input type="emailtype" class="emailinput" name="email" id="email" placeholder="E-mail" required="required" autocomplete="off">
               </div>
             </div>
             <div class="divsubject">
-              <label class="label" for="subject">Subject</label>
+              <label class="label" for="subject"> Subject</label>
               <input type="text" class="subjectinput" name="subject" id="subject" placeholder="Subject" required="required" autocomplete="off">
             </div>
             <div class="divmessage">
-              <label class="label" for="message">Message</label>
+              <label class="label" for="message"> Message</label>
               <textarea name="message" class="messageinput" id="message" cols="30" rows="4" placeholder="Message" required="required"></textarea>
             </div>
           </div>
